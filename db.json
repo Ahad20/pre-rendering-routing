@@ -1,4 +1,11 @@
 {
+  "dashboard": {
+    "likes": 10,
+    "followers": 20,
+    "posts": 30,
+    "followings": 30
+  },
+
   "products": [
     { "id": 1, "title": "product 1", "price": 900 },
     { "id": 2, "title": "product 2", "price": 1800 },

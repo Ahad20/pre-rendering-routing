@@ -6,7 +6,7 @@ const UserList = ({ data }) => {
     <div>
       <h1>User List page</h1>
       {data.map((user) => (
-        <User user={user} />
+        <User user={user} key={user.id} />
       ))}
     </div>
   );
